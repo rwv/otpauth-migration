@@ -1,0 +1,25 @@
+{
+  "name": "otpauth-migration",
+  "version": "1.0.0",
+  "description": "Convert between otpauth-migration and otpauth in JavaScript.",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwv/otpauth-migration.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwv/otpauth-migration/issues"
+  },
+  "homepage": "https://github.com/rwv/otpauth-migration#readme"
+}
