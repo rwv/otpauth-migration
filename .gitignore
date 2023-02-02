@@ -107,3 +107,6 @@ dist
 # https://github.com/protobufjs/protobuf.js/blob/master/cli/README.md
 src/proto/index.js
 src/proto/index.d.ts
+
+# lib
+lib

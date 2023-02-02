@@ -10,6 +10,9 @@
     "lib": "lib"
   },
   "scripts": {
+    "build": "npm run build:proto && npm run build:lib && npm run build:copy:proto",
+    "build:lib": "tsc",
+    "build:copy:proto": "copyfiles -u 1 src/proto/*.js src/proto/*.d.ts lib",
     "build:proto": "pbjs -t static-module -w es6 -o src/proto/index.js src/proto/migration.proto && pbts -o src/proto/index.d.ts src/proto/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +27,7 @@
   },
   "homepage": "https://github.com/rwv/otpauth-migration#readme",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "protobufjs-cli": "^1.1.0"
   },
   "dependencies": {
