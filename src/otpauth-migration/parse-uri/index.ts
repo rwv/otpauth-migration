@@ -1,6 +1,6 @@
 import { migration } from "../../proto";
-import { extractData } from "./extractData";
-import { payloadToInfo } from "./payloadToOptions";
+import { extractData } from "./extract-data";
+import { payloadToInfo } from "./payload-to-info";
 import { OTPInfo } from "../../common";
 
 export function parseURI(uri: string): OTPInfo[] {

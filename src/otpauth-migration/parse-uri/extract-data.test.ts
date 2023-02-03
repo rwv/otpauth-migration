@@ -1,4 +1,4 @@
-import { extractData } from "./extractData";
+import { extractData } from "./extract-data";
 
 describe("extractData", () => {
   test("extractData", () => {
